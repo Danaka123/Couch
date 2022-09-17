@@ -130,7 +130,7 @@ nav {
 }
 .navigation__home a {
   display: block;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 .house {
   display: flex;
@@ -144,6 +144,7 @@ nav {
 }
 .navigation__home a:hover,
 .house:hover {
+  color: #0e834b;
   border-color: #0e834b;
   transform: scale(1.1);
 }
@@ -490,7 +491,7 @@ nav {
 
 /* ------Timetable------ */
 .timetable {
-  margin-bottom: 100px;
+  margin-bottom: 200px;
 }
 .timetable__container {
   align-items: center;
@@ -509,24 +510,12 @@ nav {
 }
 
 .timetable__items {
-  /* position: relative;
-  width: 100%;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); */
-
   display: flex;
   justify-content: center;
   gap: 80px;
-  /* justify-content: space-around; */
 }
-.timetable-item {
-  /* margin: 0 auto;
-  width: 350px;
-  transition: all 0.3s; */
-}
+
 .timetable-item:hover .timetable-image__image img {
-  /* color: #000; */
   transform: scale(1.1);
 }
 
@@ -546,7 +535,6 @@ nav {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  /* background-color: #000; */
 }
 .timetable-image__image::before {
   content: "";
@@ -584,3 +572,95 @@ nav {
 .timetable-image__image img {
   transition: all 0.5s ease 0s;
 }
+
+/* -----Footer----- */
+
+.footer {
+  background-color: #0e3031;
+  width: 100%;
+  overflow: hidden;
+  height: 300px;
+  padding-top: 60px;
+}
+
+.footer__items {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  gap: 370px;
+  flex: 0 1 33.333%;
+}
+.item-footer {
+  display: flex;
+}
+
+.item-connect__title {
+  font-family: "Titillium Web", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 33px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.item-connect__item:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.item-connect__block {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.item-connect__block p {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  letter-spacing: 0.36px;
+  color: #ffffff;
+}
+.item-connect__block p:hover {
+  text-decoration: underline;
+}
+.nav-item__title {
+  font-family: "Titillium Web", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 33px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.nav-item__item:not(:last-child) {
+  margin-bottom: 15px;
+}
+.nav-item__link div {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+}
+
+.item-social__title {
+  font-family: "Titillium Web", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 33px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.item-social__list {
+  display: flex;
+  gap: 25px;
+}
+/* .item-connect__link .item-social__block  */
+/* img:hover {
+  background-color: #0e834b;
+} */

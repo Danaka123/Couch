@@ -1,0 +1,146 @@
+.couch-about {
+  margin-bottom: 100px;
+}
+.couch-about__items {
+  display: flex;
+  gap: 89px;
+}
+.main {
+  margin-bottom: 110px;
+}
+.couch-about__image {
+  display: flex;
+  justify-content: center;
+  width: 33%;
+}
+.couch-about__info {
+  width: 36%;
+}
+.couch-about__title h4 {
+  font-family: "Titillium Web", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.couch-about__line {
+  background-color: #0e8f70;
+  height: 3px;
+  width: 440px;
+  border-radius: 50px;
+  margin-bottom: 25px;
+}
+.couch-about__text p {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 46px;
+  color: #ffffff;
+  margin-bottom: 60px;
+}
+.couch-about__button2 {
+  display: flex;
+  justify-content: end;
+  width: 20%;
+}
+
+.about-link__text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+  width: 235px;
+  height: 71px;
+  border-radius: 35px;
+  background: #0e8f70;
+  box-shadow: 6px 4px 5px #052b25;
+}
+.couch-about__button {
+  text-align: center;
+}
+.button1 {
+  width: 524px;
+  height: 90px;
+  border-radius: 45px;
+  box-shadow: 6px 4px 5px #052b25;
+  background-color: #0e8f70;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.main__line {
+  margin: 0 auto;
+  height: 2px;
+  background-color: #0b6054;
+  width: 95%;
+  border-radius: 50px;
+  margin-bottom: 70px;
+}
+/* -----Expirience----- */
+
+.experience__container {
+  background: #0d6550;
+}
+
+.experience__items {
+  padding: 75px 49px;
+}
+.item-experience__block {
+  width: 60%;
+}
+.item-experience__block:not(:last-child) {
+  margin-bottom: 80px;
+}
+.item-experience__title {
+  font-family: "Titillium Web", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+  color: #ffffff;
+  margin-bottom: 45px;
+}
+
+.item-experience__item {
+  position: relative;
+  display: flex;
+  list-style: inside;
+  padding-left: 20px;
+}
+.item-experience__item::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 0px;
+  top: 13px;
+  background: #ffffff;
+  border-radius: 20px;
+  transform: rotate(90deg);
+}
+.item-experience__item:not(:last-child) {
+  margin-bottom: 35px;
+}
+
+.item-experience__text {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 35px;
+  color: #ffffff;
+}
