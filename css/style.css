@@ -104,6 +104,8 @@ body {
   flex: 1 1 auto;
 }
 .header {
+  position: relative;
+  z-index: -2;
   background: url("../img/mainBackgr.png") fixed;
   margin-bottom: 100px;
 }
@@ -197,7 +199,6 @@ nav {
 /* .button-nav__text:hover {
   color: #b9cac2;
 } */
-
 /* ------header main------ */
 
 .header-main__info {
