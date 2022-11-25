@@ -11,7 +11,7 @@ nav {
   margin-bottom: 90px;
 }
 .input {
-  display: flex;
+  display: none;
   /* display: none; */
   justify-content: center;
   align-items: center;
@@ -111,7 +111,7 @@ nav {
 /* -----Register------ */
 
 .register {
-  display: none;
+  display: flex;
   justify-content: center;
   align-items: center;
   padding: 0 10px;

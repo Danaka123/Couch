@@ -118,7 +118,7 @@
               </div>
             </div>
             <div class="popularcouch__button">
-              <a href="couch.html" class="button-popularcouch">
+              <a href="stuff.html" class="button-popularcouch">
                 <div>Посмотреть больше</div>
               </a>
             </div>
@@ -167,9 +167,8 @@
             <div class="timetable__title">
               <h3 class="title">Расписание</h3>
             </div>
-
             <div class="timetable__items">
-              <a href="" class="timetable-item">
+              <button href="" class="timetable-item" data-path="one">
                 <div class="timetable-item__image timetable-image">
                   <div class="timetable-image__image">
                     <img
@@ -183,7 +182,7 @@
                     <p class="text__timetable">Вы можете заполнить форму</p>
                   </div>
                 </div>
-              </a>
+              </button>
               <a href="" class="timetable-item">
                 <div class="timetable-item__image timetable-image">
                   <div class="timetable-image__image">
@@ -199,6 +198,28 @@
                   </div>
                 </div>
               </a>
+            </div>
+          </div>
+          <div class="timetable__modal">
+            <div class="modal-overlay">
+              <span class="close"></span>
+              <!-- &times; -->
+              <div class="modal" data-target="one">
+                <div class="modal-overlay__title">Заполните форму</div>
+                <div class="modal-form">
+                  <div class="modal-form__title">
+                    <h4>Имя</h4>
+                  </div>
+                  <input type="text" class="modal-form__text" />
+                  <div class="modal-form__title">
+                    <h4>E-mail</h4>
+                  </div>
+                  <input type="E-mail" class="modal-form__email" />
+                </div>
+                <div class="modal__buttons button-modal">
+                  <button class="button-modal__record">Записаться</button>
+                </div>
+              </div>
             </div>
           </div>
         </section>
